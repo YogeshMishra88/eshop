@@ -28,10 +28,15 @@
   line-height: 80px;
 }
 
-.rightMenu h3{
-  margin-left: 500px;
+ #myCart{
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
   font-weight: bold;
+  line-height: 40px;
+  border: 3px solid white;
+  width: 150px;
   color: white;
-  font-size: 22px;
-  font-family:sans-serif;
-}
+  margin-left: 400px;
+ }
