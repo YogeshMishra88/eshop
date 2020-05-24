@@ -47,9 +47,36 @@
  .box{
     width: 28%;
     height: 320px;
-    border: 1px solid orangered;
+    /*border: 1px solid orangered;*/
     display: inline-block;
     margin-left: 52px;
     margin-top: 30px;
     background-color: #fff;
+ }
+ .cart{
+  width: 80%;
+  height: 211px;
+  margin-left: 40px;
+  /*border: 1px solid red;*/
+ }
+
+ .cart img{
+  width: 298px;
+  height: 209px;
+ }
+
+ .cartRow{
+   width: 80%;
+   height: 50px;
+   /*border: 1px solid green;*/
+   margin-left: 40px;
+   margin-top: 26px;
+ }
+ .title{
+   width: 49%;
+   float: left;
+ }
+ .price{
+   width:50%;
+   float: right;
  }

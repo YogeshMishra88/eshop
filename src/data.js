@@ -13,7 +13,7 @@ export const storeProducts=[
     {
         id:2,
         title:"test2",
-        img:"img/product-2.png",
+        img:"img/product-2.jpeg",
         price:10,
         company:"demo",
         info:"information about product details",
@@ -24,7 +24,7 @@ export const storeProducts=[
     {
         id:3,
         title:"test3",
-        img:"img/product-3.png",
+        img:"img/product-1.png",
         price:10,
         company:"demo",
         info:"information about product details",
@@ -35,7 +35,7 @@ export const storeProducts=[
     {
         id:4,
         title:"test4",
-        img:"img/product-4.png",
+        img:"img/product-1.png",
         price:10,
         company:"demo",
         info:"information about product details",
@@ -46,7 +46,7 @@ export const storeProducts=[
     {
         id:5,
         title:"test5",
-        img:"img/product-5.png",
+        img:"img/product-1.png",
         price:10,
         company:"demo",
         info:"information about product details",
