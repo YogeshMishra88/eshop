@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 
 class Navbar extends Component {
     render(){
-        return <h2>Hello from Navbar component !!</h2>
+        return(
+            <nav>
+                <div class="row">
+                    <div class="firstHeader"></div>
+                    <div class="secondHeader"></div>
+                </div>
+            </nav>
+        )
     }
 }
 
