@@ -3,12 +3,14 @@ import React, { Component } from 'react';
 class Navbar extends Component {
     render(){
         return(
-            <nav>
-                <div class="row">
-                    <div class="firstHeader"></div>
-                    <div class="secondHeader"></div>
+           <div class="menu">
+               <div class="leftMenu">
+                    <h4>eMobile</h4>
                 </div>
-            </nav>
+               <div class="rightMenu">
+                   <h3>cart</h3>
+               </div>
+           </div>
         )
     }
 }
