@@ -2,9 +2,7 @@ import React,{Component} from 'react';
 
 class ProductList extends Component {
     render(){
-        console.log(this.props)
         const {img,title,price}=this.props.data;
-        console.log(img);
         return (
             <div className="box">
                 <div className="cart">

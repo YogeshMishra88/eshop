@@ -1,26 +1,39 @@
 import React, { Component } from 'react';
-import {storeProducts,detailsProduct} from '../data';
-
+import {ProductConsumer} from '../context';
 import ProductList from './productlist';
+import Title from './title';
 
 class Product extends Component {
     constructor(props){
         super(props);
         this.state={
-            Products : storeProducts
         }
     }
     render(){
-        console.log(this.state.Products);
         return (
-            <div className="container">
-            {
+            <React.Fragment>
+                 <div className="container">
+                     <Title name="Our" title="Products" />
+             {/* {
                 this.state.Products.map(item=>{
                 return <ProductList key={item.id} data={item}></ProductList>
                 })
+             } */}
+            
+                <ProductConsumer>
+                {
+                    value=>{
+                         //console.log(value.products)
+                        return  value.products.map(item=>{
+                            return <ProductList key={item.id} data={item}></ProductList>
+                    })
+                }
             }
+            </ProductConsumer>
+            
+            
             </div>
-           
+             </React.Fragment>
         )
     }
 }
